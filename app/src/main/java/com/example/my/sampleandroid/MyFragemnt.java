@@ -40,13 +40,13 @@ public class MyFragemnt extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        Button button = view.findViewById(R.id.buttonPanel);
+        /*Button button = view.findViewById(R.id.buttonPanel);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 listener.onButtonClick();
             }
-        });
+        });*/
     }
 
 
